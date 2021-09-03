@@ -5,7 +5,11 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
-  }
+  },
+  {
+    path: 'dados-perfil',
+    loadChildren: () => import('./pages/dados-perfil/dados-perfil.module').then( m => m.DadosPerfilPageModule)
+  },
 ];
 @NgModule({
   imports: [
