@@ -48,6 +48,8 @@ ion-header{
 ion-content {
 
   div{
+    max-width: 600px;
+    margin: 0 auto;
     ion-list{
       ion-item-sliding {
         #escola {

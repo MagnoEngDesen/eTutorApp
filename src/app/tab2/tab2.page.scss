@@ -26,7 +26,8 @@ ion-content {
   ion-grid {
     background-color: transparent;
     background-attachment: fixed;
-
+    max-width: 600px;
+    margin: 0 auto;
     ion-icon {
       transform: translateX(10vh);
       font-size: 1.3rem;
@@ -42,8 +43,10 @@ ion-content {
     border-style: solid;
     border-left: none;
     border-right: none;
-    ion-row {
 
+    ion-row {
+      max-width: 600px;
+      margin: 0 auto;
       #icon {
         transform: translateX(16vh);
         font-size: 1.5rem;
