@@ -17,7 +17,7 @@ ion-content {
       margin-top: -150px;
     }
     p {
-      color:#ffff;
+      color: var(--ion-color-branco);
       font-size: 1.5rem;
       font-family: Roboto;
     }
@@ -28,6 +28,7 @@ ion-content {
     background-attachment: fixed;
     max-width: 600px;
     margin: 0 auto;
+    align-items: center;
     ion-icon {
       transform: translateX(10vh);
       font-size: 1.3rem;
@@ -43,6 +44,7 @@ ion-content {
     border-style: solid;
     border-left: none;
     border-right: none;
+    align-items: center;
 
     ion-row {
       max-width: 600px;

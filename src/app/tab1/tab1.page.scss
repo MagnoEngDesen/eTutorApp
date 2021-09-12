@@ -1,34 +1,28 @@
 ion-header{
+  min-width: 300px;
   background-color: var(--ion-color-primary);
   background-size: cover;
   ion-grid {
     color: var(--ion-color-primary);
     background-color: transparent;
-    background: white;
+    background: var(--ion-color-branco);
     border-radius: 40px 40px 0 0;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     margin: 0 -1px -2px -1px;
+
 
   }
 
   ion-toolbar {
+    min-width: 300px;
     background-color: transparent;
     background-attachment: fixed;
-    ion-button {
+    img {
 
-      background-color: transparent;
+      max-width: 20%;
+      min-width: 100px;
       border-radius: 50%;
-      min-height: 5rem;
-      min-width: 3rem;
-
-      ion-icon {
-
-        background-color: transparent;
-        height: 68px;
-        width: 64px;
-        color:white;
-
-      }
+      margin: 10px;
     }
     p {
 
@@ -37,7 +31,7 @@ ion-header{
       ion-text {
         font-family: Roboto;
         font-size: 30px;
-        color:white;
+        color: var(--ion-color-branco);
       }
     }
 
@@ -46,9 +40,10 @@ ion-header{
 
 }
 ion-content {
-
+min-width: 300px;
   div{
     max-width: 600px;
+    min-width: 300px;
     margin: 0 auto;
     ion-list{
       ion-item-sliding {
