@@ -23,42 +23,47 @@ ion-content {
     }
 
   }
-  ion-grid {
+  .dados-pessoa {
     background-color: transparent;
     background-attachment: fixed;
     max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin: 0 auto;
     align-items: center;
     ion-icon {
-      transform: translateX(10vh);
-      font-size: 1.3rem;
+      font-size: 23px;
       }
     ion-label {
-      font-size: 1.5rem;
+      font-size: 20px;
       font-family: Roboto;
     }
   }
   #selecao {
     background-color: transparent;
     background-attachment: fixed;
-    border-style: solid;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
     border-left: none;
     border-right: none;
     align-items: center;
-
-    ion-row {
-      max-width: 600px;
-      margin: 0 auto;
+    margin: 0 auto;
       #icon {
-        transform: translateX(16vh);
-        font-size: 1.5rem;
+        font-size: 23px;
       }
       ion-label{
-        font-size: 1.3rem;
+        font-size: 20px;
         font-family: Roboto;
+        margin: 5px;
 
       }
-    }
+
 
 
  }
